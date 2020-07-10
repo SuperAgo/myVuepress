@@ -5,6 +5,7 @@ module.exports = {
 	themeConfig: {
 		type: 'blog',
 		author: '六六',
+		authorAvatar: 'https://file.neatman.club/aeea0f1e6e467d69cbe5/%E5%AE%87%E8%88%AA%E5%91%982.png',
 		sidebar: {
 			'/中国近现代史纲要/': [
 				'目录',
@@ -34,6 +35,10 @@ module.exports = {
 				'第五章-软件测试',
 				'第六章-软件生存周期过程与管理',
 				'第七章-集成化能力成熟度模型'
+			],
+			'/计算机网络技术/': [
+				'第一章-计算机网络技术概论',
+				'第二章-数据通信基础'
 			]
 		},
 		sidebarDepth: 1,
@@ -202,15 +207,20 @@ module.exports = {
 	],
 	plugins: [
 		['aplayer'],
+		['@vuepress/active-header-links',{
+            sidebarLinkSelector: '.sidebar-link',
+            headerAnchorSelector: '.header-anchor'
+        }],
+		['@vuepress/last-updated'],
 		['flowchart'],
 		['cursor-effects'],
 		[
 		      "dynamic-title",
 		      {
 		        showIcon: "https://file.neatman.club/52da35270cde4dd40831/neatman.png",
-		        showText: "(/≧▽≦/)咦！又好了！",
+		        showText: "(/≧▽≦/)爱你呀！",
 		        hideIcon: "https://file.neatman.club/52da35270cde4dd40831/neatman.png",
-		        hideText: "(●—●)喔哟，崩溃啦！",
+		        hideText: "(●—●)你到底爱不爱我！",
 		        recoverTime: 2000
 		      }
 		],

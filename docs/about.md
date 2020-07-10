@@ -1,15 +1,18 @@
 ---
 title: 关于Neat
+sidebar: false
 ---
 Neat主要作为学习备忘和读书笔记来用，偶尔会写一两篇日记或者转载一些获得授权的文章。转载的内容可能只是某一些观点让我觉得受用，不一定广泛适用，大家辩证的看👀。
+
+嗯，还是告别了花里胡哨，简简单单就好。
 
 网站支持pwa离线浏览（缺点是可能要多次重复刷新），有更新时会有提示，点击右下角刷新按钮即可获取最新内容。
 
 404页面跟随原主题链接腾讯公益页面，帮助宝贝回家。
 
-💕谢谢来访~
----
-[软件下载](/app/Neat_1.0.apk)目前仅支持Android手机
+## 💕谢谢来访~
+
+
 <center>
-    <img src="/images/neat.png" style="max-width: 10rem;">    
+    <a href="/app/Neat_1.0.apk"><img src="/images/neat.png" style="max-width: 10rem;"></a>    
 </center>
