@@ -5,7 +5,7 @@ module.exports = {
 	themeConfig: {
 		type: 'blog',
 		author: '六六',
-		authorAvatar: 'https://file.neatman.club/aeea0f1e6e467d69cbe5/%E5%AE%87%E8%88%AA%E5%91%982.png',
+		authorAvatar: 'https://file.neatman.club/20ffb44a8bc12c06dea7/%E5%AE%87%E8%88%AA%E5%91%982.png',
 		sidebar: {
 			'/中国近现代史纲要/': [
 				'目录',
@@ -38,11 +38,12 @@ module.exports = {
 			],
 			'/计算机网络技术/': [
 				'第一章-计算机网络技术概论',
-				'第二章-数据通信基础'
+				'第二章-数据通信基础',
+				'第三章-网络协议和体系结构',
+				'第四章-局域网技术'
 			]
 		},
 		sidebarDepth: 1,
-		displayAllHeaders: true, // 显示所有页面的标题链接
 		nextLinks: true, // 默认值是 true 。设置为 false 来禁用所有页面的 下一篇 链接
 		prevLinks: true, // 默认值是 true 。设置为 false 来禁用所有页面的 上一篇 链接
 		record: '豫ICP备19030164号-2',
@@ -71,12 +72,9 @@ module.exports = {
 				icon: 'reco-date'
 			},
 			{
-				text: '其他',
-				icon: 'reco-other',
-				items: [{
-						text: 'linux命令大全',
-						link: 'https://www.linuxcool.com/'
-					},
+				text: '文档',
+				icon: 'reco-document',
+				items: [
 					{
 						text: 'Java SE API Documentation',
 						link: 'https://docs.oracle.com/javase/8/docs/api/index.html'
@@ -88,6 +86,15 @@ module.exports = {
 					{
 						text: 'Vue.js',
 						link: 'https://cn.vuejs.org/v2/guide/'
+					}
+				]
+			},
+			{
+				text: '工具',
+				icon: 'reco-other',
+				items: [{
+						text: 'linux命令大全',
+						link: 'https://www.linuxcool.com/'
 					},
 					{
 						text: 'Stackoverflow',
@@ -101,8 +108,13 @@ module.exports = {
 						text: 'Leetcode',
 						link: 'https://leetcode-cn.com/'
 					},
+					{
+						text: 'wallhaven壁纸',
+						link: 'https://wallhaven.cc/'
+					},
 				]
-			},{
+			},
+			{
 				text: '关于',
 				link: '/about/',
 				icon: 'reco-faq'

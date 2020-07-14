@@ -1,18 +1,33 @@
+### 🐱‍🏍说明
+本站文章采用 [CC BY-NC-SA 4.0协议](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)进行发布。   
+主要作为学习备忘和读书笔记来用，偶尔会写一两篇日记或者转载一些获得授权的文章。转载的内容可能只是某一些观点让我觉得受用，不一定广泛适用，大家辩证的看👀。  
+若您认为本站有内容侵犯了您的版权，请告知我，我将认真处理。
+:::tip
+文章内容出错的，欢迎指出！
+:::
+- **Email**：[super100wj@163.com](mailto:super100wj@163.com)
+- **WeChat or QQ**: [793622421](tencent://message/?uin=793622421&amp;Site=&amp;Menu=yes)
+### 🛸感谢来访~
 ---
-title: 关于Neat
-sidebar: false
----
-Neat主要作为学习备忘和读书笔记来用，偶尔会写一两篇日记或者转载一些获得授权的文章。转载的内容可能只是某一些观点让我觉得受用，不一定广泛适用，大家辩证的看👀。
-
-嗯，还是告别了花里胡哨，简简单单就好。
-
-网站支持pwa离线浏览（缺点是可能要多次重复刷新），有更新时会有提示，点击右下角刷新按钮即可获取最新内容。
-
-404页面跟随原主题链接腾讯公益页面，帮助宝贝回家。
-
-## 💕谢谢来访~
-
-
 <center>
     <a href="/app/Neat_1.0.apk"><img src="/images/neat.png" style="max-width: 10rem;"></a>    
 </center>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+.page-title{
+	display:none
+}
+</style>
