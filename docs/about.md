@@ -5,8 +5,8 @@
 :::tip
 文章内容出错的，欢迎指出！
 :::
-- **Email**：[super100wj@163.com](mailto:super100wj@163.com)
-- **WeChat or QQ**: [793622421](tencent://message/?uin=793622421&amp;Site=&amp;Menu=yes)
+- **Email**：[<font style="color: #0570f5;">super100wj@163.com</font>](mailto:super100wj@163.com)
+- **WeChat or QQ**: [<font style="color: #0570f5;">793622421</font>](tencent://message/?uin=793622421&amp;Site=&amp;Menu=yes)
 ### 🛸感谢来访~
 ---
 <center>
