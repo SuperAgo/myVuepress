@@ -16,7 +16,7 @@ module.exports = {
 				'第五章-中国革命的新道路',
 				'第六章-中华民族的抗日战争'
 			],
-			'/代码相关/': [		
+			'/代码相关/': [
 				'Docker使用',
 				'docker的常用命令',
 				'Docker安装Nginx',
@@ -42,7 +42,10 @@ module.exports = {
 				'第三章-网络协议和体系结构',
 				'第四章-局域网技术',
 				'第五章-网络互联技术',
-				'第六章-网络应用技术'
+				'第六章-网络应用技术',
+				'第七章-网络管理技术',
+				'第八章-网络操作系统',
+				'第九章-计算机网络安全'
 			]
 		},
 		sidebarDepth: 1,
@@ -76,8 +79,7 @@ module.exports = {
 			{
 				text: '文档',
 				icon: 'reco-document',
-				items: [
-					{
+				items: [{
 						text: 'Java SE API Documentation',
 						link: 'https://docs.oracle.com/javase/8/docs/api/index.html'
 					},
@@ -136,6 +138,11 @@ module.exports = {
 			}]
 		},
 		friendLink: [{
+			title: '阮一峰',
+			desc: '阮一峰的个人网站',
+			link: 'http://www.ruanyifeng.com/',
+			logo: 'http://www.ruanyifeng.com/blog/images/person2.jpg'
+		}, {
 			title: 'DmxZ',
 			desc: 'DmxZ 的自留地！',
 			link: 'https://dmx.pub/',
@@ -209,7 +216,8 @@ module.exports = {
 			name: 'msapplication-TileColor',
 			content: '#000000'
 		}],
-		['script', {}, `
+		['script', {},
+			`
 		    var _hmt = _hmt || [];
 		    (function() {
 		        var hm = document.createElement("script");
@@ -217,26 +225,54 @@ module.exports = {
 		        var s = document.getElementsByTagName("script")[0]; 
 		        s.parentNode.insertBefore(hm, s);
 		    })();
-		`]
+		`
+		]
 	],
 	plugins: [
 		['aplayer'],
-		['@vuepress/active-header-links',{
-            sidebarLinkSelector: '.sidebar-link',
-            headerAnchorSelector: '.header-anchor'
-        }],
+		["@vuepress-reco/vuepress-plugin-kan-ban-niang",
+			{
+				theme: ['blackCat', 'whiteCat', 'haru1', 'haru2', 'haruto', 'koharu', 'izumi', 'shizuku', 'wanko', 'miku', 'z16'],
+				clean: false,
+				messages: {
+					welcome: '欢迎来到Neat',
+					home: '心里的花，我想要带你回家。',
+					theme: '好吧，希望你能喜欢我的其他小伙伴。',
+					close: '你知道我喜欢吃什么吗？痴痴地望着你。'
+				},
+				btnStyle:{
+				  left: '145px',
+				  bottom: '50px'
+				},
+				messageStyle:{
+				  left: '5px',
+				  bottom: '190px'
+				},
+				modelStyle: {
+					position: "fixed",
+					left: "0px",
+					bottom: "10px",
+					opacity: "0.9",
+					zIndex: 99999
+				}
+			}
+		],
+		['@vuepress/active-header-links', {
+			sidebarLinkSelector: '.sidebar-link',
+			headerAnchorSelector: '.header-anchor'
+		}],
 		['@vuepress/last-updated'],
 		['flowchart'],
 		['cursor-effects'],
 		[
-		      "dynamic-title",
-		      {
-		        showIcon: "https://file.neatman.club/52da35270cde4dd40831/neatman.png",
-		        showText: "(/≧▽≦/)爱你呀！",
-		        hideIcon: "https://file.neatman.club/52da35270cde4dd40831/neatman.png",
-		        hideText: "(●—●)你到底爱不爱我！",
-		        recoverTime: 2000
-		      }
+			"dynamic-title",
+			{
+				showIcon: "https://file.neatman.club/52da35270cde4dd40831/neatman.png",
+				showText: "(/≧▽≦/)爱你呀！",
+				hideIcon: "https://file.neatman.club/52da35270cde4dd40831/neatman.png",
+				hideText: "(●—●)你到底爱不爱我！",
+				recoverTime: 2000
+			}
 		],
 		['@vuepress/pwa', {
 			serviceWorker: true,
@@ -245,7 +281,7 @@ module.exports = {
 				buttonText: "刷新"
 			}
 		}],
-		['vuepress-plugin-helper-live2d', {
+		/* ['vuepress-plugin-helper-live2d', {
 			// 是否开启控制台日志打印(default: false)
 			log: false,
 			live2d: {
@@ -268,6 +304,6 @@ module.exports = {
 					opacity: 1 // 模型透明度(default: 0.8)
 				}
 			}
-		}],
+		}], */
 	]
 }

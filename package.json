@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "vuepress-plugin-helper-live2d": "^1.0.2",
+    "@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5",
     "vuepress-theme-reco": "^1.4.6",
     "webpack": "^4.43.0"
   },
