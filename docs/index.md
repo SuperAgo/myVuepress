@@ -1,5 +1,5 @@
 ---
 home: true
-bgImage: https://file.neatman.club/2cfdfd934b5fcd3fccb3/wallhaven-kwk2q7.jpg
+bgImage: https://file.neatman.club/3c8d917b6efd9bd678e8/t018fd7fe3ee2b3a2c6.webp
 heroText: null
 ---

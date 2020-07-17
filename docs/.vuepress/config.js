@@ -5,7 +5,7 @@ module.exports = {
 	themeConfig: {
 		type: 'blog',
 		author: '六六',
-		authorAvatar: 'https://file.neatman.club/20ffb44a8bc12c06dea7/%E5%AE%87%E8%88%AA%E5%91%982.png',
+		authorAvatar: '/images/jetpacktocat.png',
 		sidebar: {
 			'/中国近现代史纲要/': [
 				'目录',
@@ -28,6 +28,7 @@ module.exports = {
 				'Tomcat部署多项目'
 			],
 			'/软件工程/': [
+				'软件工程',
 				'第一章-绪论',
 				'第二章-软件需求与软件需求规约',
 				'第三章-结构化方法',
@@ -37,6 +38,7 @@ module.exports = {
 				'第七章-集成化能力成熟度模型'
 			],
 			'/计算机网络技术/': [
+				'计算机网络技术',
 				'第一章-计算机网络技术概论',
 				'第二章-数据通信基础',
 				'第三章-网络协议和体系结构',
@@ -124,19 +126,6 @@ module.exports = {
 				icon: 'reco-faq'
 			}
 		],
-		aplayer: {
-			autoplay: false,
-			lrcType: false,
-			mutex: true,
-			theme: '#ad7a86',
-			order: 'random',
-			audio: [{
-				name: '温柔',
-				artist: '五月天',
-				url: 'https://file.neatman.club/11d40dadd3784e2e62e8/%E6%B8%A9%E6%9F%94.mp3',
-				cover: 'https://file.neatman.club/7cd640b5c7a1fab16a35/%E6%B8%A9%E6%9F%94.jpg'
-			}]
-		},
 		friendLink: [{
 			title: '阮一峰',
 			desc: '阮一峰的个人网站',
@@ -226,10 +215,19 @@ module.exports = {
 		        s.parentNode.insertBefore(hm, s);
 		    })();
 		`
-		]
+		],
+		['link', {
+			rel: 'stylesheet',
+			href: 'https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css'
+		}],
+		['script', {
+			src: 'https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js',
+		}],
+		['script', {
+			src: 'https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js',
+		}]
 	],
 	plugins: [
-		['aplayer'],
 		["@vuepress-reco/vuepress-plugin-kan-ban-niang",
 			{
 				theme: ['blackCat', 'whiteCat', 'haru1', 'haru2', 'haruto', 'koharu', 'izumi', 'shizuku', 'wanko', 'miku', 'z16'],
@@ -241,17 +239,17 @@ module.exports = {
 					close: '你知道我喜欢吃什么吗？痴痴地望着你。'
 				},
 				btnStyle:{
-				  left: '145px',
-				  bottom: '50px'
+				  right: '80px',
+				  bottom: '100px'
 				},
 				messageStyle:{
-				  left: '5px',
-				  bottom: '190px'
+				  right: '55px',
+				  bottom: '250px'
 				},
 				modelStyle: {
 					position: "fixed",
-					left: "0px",
-					bottom: "10px",
+					right: "80px",
+					bottom: "50px",
 					opacity: "0.9",
 					zIndex: 99999
 				}
