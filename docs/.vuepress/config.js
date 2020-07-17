@@ -237,7 +237,7 @@ module.exports = {
 				messages: {
 					welcome: '欢迎来到Neat',
 					home: '心里的花，我想要带你回家。',
-					theme: '巴啦啦能量—沙罗沙罗—小魔仙—全身变',
+					theme: '巴啦啦能量，沙罗沙罗，小魔仙全身变！',
 					close: '你知道我喜欢吃什么吗？痴痴地望着你。'
 				},
 				btnStyle:{
@@ -281,29 +281,5 @@ module.exports = {
 				buttonText: "刷新"
 			}
 		}],
-		/* ['vuepress-plugin-helper-live2d', {
-			// 是否开启控制台日志打印(default: false)
-			log: false,
-			live2d: {
-				// 是否启用(关闭请设置为false)(default: true)
-				enable: true,
-				// 模型名称(default: hibiki)>>>取值请参考：
-				// https://github.com/JoeyBling/hexo-theme-yilia-plus/wiki/live2d%E6%A8%A1%E5%9E%8B%E5%8C%85%E5%B1%95%E7%A4%BA
-				model: 'hijiki',
-				display: {
-					position: "right", // 显示位置：left/right(default: 'right')
-					width: 80, // 模型的长度(default: 135)
-					height: 150, // 模型的高度(default: 300)
-					hOffset: 1, //  水平偏移(default: 65)
-					vOffset: 100, //  垂直偏移(default: 0)
-				},
-				mobile: {
-					show: true
-				},
-				react: {
-					opacity: 1 // 模型透明度(default: 0.8)
-				}
-			}
-		}], */
 	]
 }
