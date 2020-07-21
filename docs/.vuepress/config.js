@@ -28,7 +28,6 @@ module.exports = {
 				'Tomcat部署多项目'
 			],
 			'/软件工程/': [
-				'软件工程',
 				'第一章-绪论',
 				'第二章-软件需求与软件需求规约',
 				'第三章-结构化方法',
@@ -38,7 +37,6 @@ module.exports = {
 				'第七章-集成化能力成熟度模型'
 			],
 			'/计算机网络技术/': [
-				'计算机网络技术',
 				'第一章-计算机网络技术概论',
 				'第二章-数据通信基础',
 				'第三章-网络协议和体系结构',
@@ -50,11 +48,18 @@ module.exports = {
 				'第九章-计算机网络安全',
 				'IP地址与子网掩码划分的心得'
 			],
+			'/软件开发工具/': [
+				'第一章-绪论',
+				'第二章-软件开发过程及其组织',
+				'第三章-软件开发工具的理论基础',
+				'第四章-软件开发工具的技术要素',
+				'第五章-软件开发工具的使用与开发',
+				'第六章-软件开发工具的现状与发展'
+			],
 			'/随笔/': [
-				'日记本',
 				'2020年02月25日',
 				'2020年05月29日',
-				'摘抄',
+				'2020年07月01日',
 				'2020年07月20日'
 			]
 		},
@@ -87,8 +92,8 @@ module.exports = {
 				icon: 'reco-date'
 			},
 			{
-				text: '文档',
-				icon: 'reco-document',
+				text: '工具',
+				icon: 'reco-other',
 				items: [{
 						text: 'Java SE API Documentation',
 						link: 'https://docs.oracle.com/javase/8/docs/api/index.html'
@@ -100,13 +105,8 @@ module.exports = {
 					{
 						text: 'Vue.js',
 						link: 'https://cn.vuejs.org/v2/guide/'
-					}
-				]
-			},
-			{
-				text: '工具',
-				icon: 'reco-other',
-				items: [{
+					},
+					{
 						text: 'linux命令大全',
 						link: 'https://www.linuxcool.com/'
 					},
@@ -246,13 +246,13 @@ module.exports = {
 					theme: '巴啦啦能量，沙罗沙罗，小魔仙全身变！',
 					close: '你知道我喜欢吃什么吗？痴痴地望着你。'
 				},
-				btnStyle:{
-				  right: '80px',
-				  bottom: '100px'
+				btnStyle: {
+					right: '80px',
+					bottom: '100px'
 				},
-				messageStyle:{
-				  right: '55px',
-				  bottom: '250px'
+				messageStyle: {
+					right: '55px',
+					bottom: '250px'
 				},
 				modelStyle: {
 					position: "fixed",
