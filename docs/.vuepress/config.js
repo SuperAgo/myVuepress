@@ -78,6 +78,7 @@ module.exports = {
 				'需要时间',
 				'学着放手',
 				'去养成新习惯吧',
+				'停止',
 			]
 		},
 		sidebarDepth: 1,
