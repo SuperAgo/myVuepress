@@ -72,11 +72,11 @@ module.exports = {
 				'Tomcat部署多项目'
 			],
 			'/随笔/': [
-				'2020年05月29日',
-				'2020年07月01日',
-				'需要时间',
-				'去养成新习惯吧',
+				'说明',
 				'未见之见',
+				'去养成新习惯吧',
+				'需要时间',
+				'2020年05月29日',
 			]
 		},
 		sidebarDepth: 1,
@@ -142,6 +142,21 @@ module.exports = {
 						text: 'wallhaven壁纸',
 						link: 'https://wallhaven.cc/'
 					},
+				]
+			},
+			{
+				text: '自用',
+				icon: 'reco-three',
+				items: [{
+						text: '软件工程',
+						icon: 'reco-npm',
+						link: '/软件工程/软件工程/第一章-绪论'
+					},
+					{
+						text: '心情',
+						icon: 'reco-npm',
+						link: '/随笔/说明'
+					}
 				]
 			},
 			{
