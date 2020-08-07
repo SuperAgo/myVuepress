@@ -8,6 +8,13 @@ module.exports = {
 		authorAvatar: '/images/jetpacktocat.png',
 		sidebar: {
 			'/软件工程/': [{
+					title: '高级数据库技术', // 必要的
+					sidebarDepth: 1, // 可选的, 默认值是 1
+					children: [
+						'高级数据库技术/第一章-数据库系统概述',
+						'高级数据库技术/第二章-实体-联系模型',
+					]
+				},{
 					title: '软件工程', // 必要的
 					sidebarDepth: 1, // 可选的, 默认值是 1
 					children: [
