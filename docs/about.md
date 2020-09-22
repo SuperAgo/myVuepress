@@ -1,6 +1,7 @@
 ---
 title: about
 sidebar: false
+isShowComments: false
 ---
 
 ### 🐱‍🏍说明
@@ -13,10 +14,6 @@ sidebar: false
 >文章内容出错的，欢迎指出！
 
 ### 🛸感谢来访~
----
-<center>
-    <a href="/app/Neat_1.0.apk"><img src="/images/neat.png" style="max-width: 10rem;"></a>    
-</center>
 
 
 
