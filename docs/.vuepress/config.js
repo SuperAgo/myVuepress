@@ -129,11 +129,13 @@ module.exports = {
 			],
 			'/随笔/': [
 				'说明',
-				'又是一个下雨天',
-				'未见之见',
-				'去养成新习惯吧',
-				'需要时间',
-				'2020年05月29日',
+				'2021-01-01',
+				'2020-08-20',
+				'2020-08-03',
+				'2020-07-20',
+				'2020-07-16',
+				'2020-07-01',
+				'2020-05-29',
 			]
 		},
 		sidebarDepth: 1,
@@ -252,6 +254,11 @@ module.exports = {
 			desc: '一只努力的考研狗',
 			link: 'https://eatrice.top/',
 			logo: 'https://eatrice.top/img/favcion.png'
+		}, {
+			title: '夏目友人帐',
+			desc: '夏目贵志',
+			link: 'https://xiamuyourenzhang.cn/',
+			logo: 'https://xiamuyourenzhang.cn/assets/tx.jpg'
 		}]
 	},
 	head: [
@@ -355,25 +362,13 @@ module.exports = {
 			sidebarLinkSelector: '.sidebar-link',
 			headerAnchorSelector: '.header-anchor'
 		}],
-		['@vuepress/last-updated'],
 		['flowchart'],
-		['cursor-effects'],
-		[
-			"dynamic-title",
-			{
-				showIcon: "https://file.neatman.club/52da35270cde4dd40831/neatman.png",
-				showText: "(/≧▽≦/)爱你呀！",
-				hideIcon: "https://file.neatman.club/52da35270cde4dd40831/neatman.png",
-				hideText: "(●—●)你到底爱不爱我！",
-				recoverTime: 2000
-			}
-		],
 		['@vuepress/pwa', {
 			serviceWorker: true,
 			updatePopup: {
 				message: "有新内容",
 				buttonText: "刷新"
 			}
-		}],
+		}]
 	]
 }
