@@ -377,6 +377,7 @@ module.exports = {
 			headerAnchorSelector: '.header-anchor'
 		}],
 		['flowchart'],
+		['@vuepress/last-updated'],
 		['@vuepress/pwa', {
 			serviceWorker: true,
 			updatePopup: {
@@ -392,8 +393,11 @@ module.exports = {
 				mid: "5126471222"
 			}, // 不配置该项的话不会出现全局播放器
 			aplayer: {
-				order:'random',
+				order: 'random',
 				lrcType: 3
+			},
+			mobile: {
+				lrc: false
 			}
 		}],
 	]
